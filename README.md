@@ -78,5 +78,4 @@ Several improvements can significantly enhance the model:
 - Scikit-learn
 - yFinance
 
-## Project Structure
 
