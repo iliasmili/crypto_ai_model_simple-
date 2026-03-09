@@ -14,7 +14,7 @@ def download_data():
     if df.empty:
         raise ValueError("No data downloaded from Yahoo Finance.")
 
-    # Keep only needed columns
+  
     df = df[['Close', 'Volume']].copy()
 
     # Flatten columns if MultiIndex exists
